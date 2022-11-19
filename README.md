@@ -1,6 +1,11 @@
 # binance-football-fever-2022-predict-bot
 Бот, который проставляет один из наиболее вероятных исходов каждого матча в событии Binance Football Fever 2022 основываясь на коэффициентах букмекеров (кэф до 9)
 
+Установка нужных библиотек:
+1. Запускаем cmd
+2. cd путь\к\cофту\который\вы\скопировали\выше (C:\Users\Administrator\Desktop\droppp_acc_creator)
+3. pip install -r requirements.txt
+
 Для коректной работы, в accounts.py нужно записать [cookie, csrftoken] от аккаунта. Чтобы получить эти данные войдите на бинанс, инструменты разработчика(F12), перейдите в меню "Network" и найдите там "login" активность, после скопируйте curl(bash) и вставте текст на сайте curlconverter.com, после чего скопируйте куки и ксрф токен и вставте в файл accounts.py.
 ![image](https://user-images.githubusercontent.com/81830808/202874828-786b4ee0-6733-4f9a-9217-0e1ca0e93dfb.png)
 
