@@ -1,0 +1,1 @@
+accounts = [['cookie1', 'csrftoken1'], ['cookie2', 'csrftoken2'], ['cookie3', 'csrftoken3']]
