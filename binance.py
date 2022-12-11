@@ -3,7 +3,7 @@ import requests
 import time
 from config import accounts
 
-print("Telegram канал автора: @asiimov_near")
+print("Telegram канал автора: @FarmerFrog")
 
 with open("proxy.txt", "r") as file:
     proxies = file.readlines()
